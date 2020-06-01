@@ -1,15 +1,12 @@
 {
   "name": "react-firestore-query-lab",
   "version": "0.1.0",
-  "keywords": ["firestore", "react", "redux-firestore", "react-redux-firebase"],
-  "homepage": "https://github.com/gregfenton/react-firestore-query-lab",
-  "bugs": "https://github.com/gregfenton/react-firestore-query-lab/issues",
-  "license": "MIT",
   "private": true,
   "dependencies": {
     "firebase": "^7.14.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-firestore-query-lab": "^0.1.0",
     "react-redux": "^7.2.0",
     "react-redux-firebase": "^3.5.1",
     "react-scripts": "3.4.1",
