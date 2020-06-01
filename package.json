@@ -5,7 +5,6 @@
   "homepage": "https://github.com/gregfenton/react-firestore-query-lab",
   "bugs": "https://github.com/gregfenton/react-firestore-query-lab/issues",
   "license": "MIT",
-  "private": true,
   "repository": {
     "type" : "git",
     "url" : "https://github.com/gregfenton/react-firestore-query-lab.git"
