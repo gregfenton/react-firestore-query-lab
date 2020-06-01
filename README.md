@@ -29,7 +29,6 @@ For the following steps, we assume you are going to add the component to `<App>`
       ```
   1. Run your app: `npm start`
 
-
 ## Using the Component
 Once loaded in your app, you can query your Firestore instance.  The Component comprises 4 "zones":
   1. **Example Queries** - displays several example queries, each prefixed with a **load** button.  Clicking the _load_ button copies the query text into the _Query Zone_.
@@ -38,3 +37,6 @@ Once loaded in your app, you can query your Firestore instance.  The Component c
   1. **Results Zone** - a text field where query results or error strings are displayed.
 
 The query takes a string that is parsed as JSON.  If it parses correctly and if it contains a valid query, `firestore.get()` is called with your query.  Results or Errors are displayed in the _Results Zone_.
+
+## Example App
+See [the project's example](https://github.com/gregfenton/react-firestore-query-lab/tree/master/example) to quickly get going in a sample app.
