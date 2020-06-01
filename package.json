@@ -6,6 +6,10 @@
   "bugs": "https://github.com/gregfenton/react-firestore-query-lab/issues",
   "license": "MIT",
   "private": true,
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/gregfenton/react-firestore-query-lab.git"
+  },
   "dependencies": {
     "firebase": "^7.14.6",
     "react": "^16.13.1",
