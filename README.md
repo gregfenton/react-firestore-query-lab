@@ -49,7 +49,7 @@ The query takes a string that is parsed as JSON.  If it parses correctly and if 
 <img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/screenshots/screenshot_1.png' width='700'/>
 
 ## The Example App
-See [the project's example](https://github.com/gregfenton/react-firestore-query-lab/tree/master/example) to quickly get going in a sample app.
+See [the project's example app](https://github.com/gregfenton/react-firestore-query-lab/tree/master/example) to quickly get going in a sample app.
 
 
 ---
