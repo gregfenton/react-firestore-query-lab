@@ -1,4 +1,5 @@
-# React Firestore Query Lab <img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/react.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/firestore.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/query.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/lab.png' width='60'/>
+<img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/react.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/firestore.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/query.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/lab.png' width='60'/>
+# React Firestore Query Lab 
 ## The `react-firestore-query-lab` Component
 
 This is a React component allowing you to experiment with [react-redux-firebase](https://react-redux-firebase.com/) queries.  Well, actually, it uses [redux-firestore's `get()`](https://github.com/prescottprue/redux-firestore#get).
