@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import { connect } from "react-redux";
 import { withFirestore } from "react-redux-firebase";
 import { compose } from "recompose";
-import { connect } from "react-redux";
 
 import * as style from "./styles";
 
@@ -95,5 +95,4 @@ const ReactFirestoreQueryLab = (props) => {
 
 export default compose(
   withFirestore,
-  connect(null, null)
 )(ReactFirestoreQueryLab);
