@@ -20,7 +20,7 @@ This component can be included anywhere in your React app that a component can b
 For the following steps, we assume you are going to add the component to `<App>` of the [Firestore configuration](https://react-redux-firebase.com/docs/firestore.html):
   1. `npm install react-firestore-query-lab`
   1. In a "page" of your React app, such as the top-level `<App>`, include this component:
-  `import ReactFirestoreQueryLab from "react-firestore-query-lab"`
+      - `import ReactFirestoreQueryLab from "react-firestore-query-lab"`
   1. In that same "page", add the component to your JSX:
       ```js
       function App() {
