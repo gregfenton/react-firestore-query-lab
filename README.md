@@ -5,8 +5,7 @@ Table of Contents
   * [The `react-firestore-query-lab` Component](#the--react-firestore-query-lab--component)
   * [Getting Started](#getting-started)
   * [Using the Component](#using-the-component)
-  * [Example App](#example-app)
-  * [Screenshot](#screenshot)
+  * [The Example App](#example-app)
 
 ## The `react-firestore-query-lab` Component
 
@@ -47,12 +46,11 @@ Once loaded in your app, you can query your Firestore instance.  The Component c
 
 The query takes a string that is parsed as JSON.  If it parses correctly and if it contains a valid query, `firestore.get()` is called with your query.  Results or Errors are displayed in the _Results Zone_.
 
-## Example App
+<img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/screenshots/screenshot_1.png' width='700'/>
+
+## THE Example App
 See [the project's example](https://github.com/gregfenton/react-firestore-query-lab/tree/master/example) to quickly get going in a sample app.
 
-## Screenshot
-
-<img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/screenshots/screenshot_1.png' width='700'/>
 
 ---
 <small><i>Table of contents generated with<a href='http://ecotrust-canada.github.io/markdown-toc/'> markdown-toc</a></i></small>
