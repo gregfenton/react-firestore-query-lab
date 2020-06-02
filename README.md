@@ -1,4 +1,4 @@
-# React Firestore Query Lab
+# React Firestore Query Lab <img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/react.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/firestore.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/query.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/lab.png' width='60'/>
 ## The `react-firestore-query-lab` Component
 
 This is a React component allowing you to experiment with [react-redux-firebase](https://react-redux-firebase.com/) queries.  Well, actually, it uses [redux-firestore's `get()`](https://github.com/prescottprue/redux-firestore#get).
@@ -8,7 +8,7 @@ Your [react-redux-firebase](https://react-redux-firebase.com/) app should be con
 This component can be included anywhere in your React app that a component can be added, assuming it is somewhere inside the hierarchy of the `<ReactReduxFirebaseProvider>.
 
 ## Getting Started
-For the following steps, we assume you are going to add the component to `<App>` of the [Firestore configuration](https://react-redux-firebase.com/docs/firestore.html):
+For the following steps, we assume you are going to add the component to `<App>` of the [Firestore configuration](https://react-redux-firebase.com/docs/firestore.html), though you can easily add the component elsewhere in your app.
   1. `npm install react-firestore-query-lab`
   1. In a "page" of your React app, such as the top-level `<App>`, include this component:
       `import ReactFirestoreQueryLab from "react-firestore-query-lab"`
@@ -40,3 +40,7 @@ The query takes a string that is parsed as JSON.  If it parses correctly and if 
 
 ## Example App
 See [the project's example](https://github.com/gregfenton/react-firestore-query-lab/tree/master/example) to quickly get going in a sample app.
+
+## Screenshot
+
+<img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/screenshots/screenshot_1.png' width='700'/>
