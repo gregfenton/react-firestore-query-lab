@@ -6,13 +6,13 @@ This is a React component allowing you to experiment with [react-redux-firebase]
 
 Your [react-redux-firebase](https://react-redux-firebase.com/) app should be configured and running against Firestore.  If not, [configure that first](https://react-redux-firebase.com/docs/getting_started.html).
 
-This component can be included anywhere in your React app that a component can be added, assuming it is somewhere inside the hierarchy of the `<ReactReduxFirebaseProvider>.
+This component can be included anywhere in your React app that a component can be added, assuming it is somewhere inside the hierarchy of the `<ReactReduxFirebaseProvider>`.
 
 ## Getting Started
-For the following steps, we assume you are going to add the component to `<App>` of the [Firestore configuration](https://react-redux-firebase.com/docs/firestore.html), though you can easily add the component elsewhere in your app.
+For the following steps, we assume you are going to add the component to `<App>` of the [Firestore configuration](https://react-redux-firebase.com/docs/firestore.html):
   1. `npm install react-firestore-query-lab`
   1. In a "page" of your React app, such as the top-level `<App>`, include this component:
-      `import ReactFirestoreQueryLab from "react-firestore-query-lab"`
+  `import ReactFirestoreQueryLab from "react-firestore-query-lab"`
   1. In that same "page", add the component to your JSX:
       ```js
       function App() {
