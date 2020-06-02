@@ -3,11 +3,14 @@ import { render } from "react-dom";
 import { Provider } from "react-redux";
 import { ReactReduxFirebaseProvider } from "react-redux-firebase";
 
-import ReactFirestoreQueryLab from "./ReactFirestoreQueryLab";
+import ReactFirestoreQueryLab from "react-firestore-query-lab";
 
-import { store, rrfProps } from "./firebaseConfig.";
+import { configureStore } from "./firestoreConfig";
 
 // Setup react-redux so that connect HOC can be used
+
+const [store, rrfProps] = configureStore();
+
 function App() {
   return (
     <Provider store={store}>
