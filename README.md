@@ -1,5 +1,13 @@
 <img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/react.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/firestore.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/query.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/lab.png' width='60'/>
 # React Firestore Query Lab 
+
+Table of Contents
+  * [The `react-firestore-query-lab` Component](#the--react-firestore-query-lab--component)
+  * [Getting Started](#getting-started)
+  * [Using the Component](#using-the-component)
+  * [Example App](#example-app)
+  * [Screenshot](#screenshot)
+
 ## The `react-firestore-query-lab` Component
 
 This is a React component allowing you to experiment with [react-redux-firebase](https://react-redux-firebase.com/) queries.  Well, actually, it uses [redux-firestore's `get()`](https://github.com/prescottprue/redux-firestore#get).
@@ -45,3 +53,6 @@ See [the project's example](https://github.com/gregfenton/react-firestore-query-
 ## Screenshot
 
 <img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/screenshots/screenshot_1.png' width='700'/>
+
+---
+<small><i>Table of contents generated with<a href='http://ecotrust-canada.github.io/markdown-toc/'> markdown-toc</a></i></small>
