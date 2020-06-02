@@ -1,7 +1,6 @@
-# Example App using React Firestore Query Lab
-## `react-firestore-query-lab`
+# Example App using [React Firestore Query Lab](https://github.com/gregfenton/react-firestore-query-lab)
 
-This project shows how you can leverage the `react-firestore-query-lab` component to test hand-written JSON queries against your Firestore database.
+This project shows how you can leverage the [`react-firestore-query-lab`](https://github.com/gregfenton/react-firestore-query-lab) component to test hand-written JSON queries against your Firestore database.
 
 ## Getting Started
 1. `git clone https://github.com/gregfenton/react-firestore-query-lab.git`
@@ -25,7 +24,7 @@ This project shows how you can leverage the `react-firestore-query-lab` componen
 1. `npm start`
 1. If your browser doesn't automatically start, browse to:  http://localhost:3000/ (or whatever URL your `npm start` console output indicates)
 1. In your browser:
-  1. From the _Example Queries_ Click the first _load_ button.  This copies the first example into the _Query Zone_.
-  1. If your Firstore database does not have a `"users"` collection, modify the Query Zone so you are querying one of your exising top-level collections.
-  1. Click the _Run Query_ button
-  1. Review _Results Zone_
+    - From the _Example Queries_ Click the first _load_ button.  This copies the first example into the _Query Zone_.
+    - If your Firstore database does not have a `"users"` collection, modify the Query Zone so you are querying one of your exising top-level collections.
+    - Click the _Run Query_ button
+    - Review _Results Zone_
