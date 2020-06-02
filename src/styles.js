@@ -45,6 +45,8 @@ export const QUERY_ZONE = {
   marginRight: "20px",
 };
 
+export const QUERY_ZONE_NUM_ROWS = 5;
+
 export const RESULTS = {
   fontFamily: "monospace",
   whiteSpace: "pre",

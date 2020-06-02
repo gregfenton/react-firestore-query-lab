@@ -83,6 +83,7 @@ const ReactFirestoreQueryLab = (props) => {
         style={style.QUERY_ZONE}
         onChange={handleQueryChange}
         value={query}
+        rows={style.QUERY_ZONE_NUM_ROWS}
       ></textarea>
       <button style={style.BUTTON_RUN_QUERY} onClick={() => runQuery()}>
         Run Query
