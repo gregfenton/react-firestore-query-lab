@@ -40,8 +40,10 @@ export const configureStore = () => {
   });
 
   // Create store with reducers and initial state
-  const initialState = {};
-  const store = createStore(rootReducer, initialState);
+  const store = createStore(
+    rootReducer,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  );
 
   const rrfProps = {
     firebase,
