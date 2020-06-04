@@ -68,7 +68,7 @@ const ReactFirestoreQueryLab = (props) => {
     <div style={style.LAB}>
       <h3>Example Queries</h3>
       {exampleQueries.map((query, idx) => (
-        <p style={style.EXAMPLE_QUERIES}>
+        <p style={style.EXAMPLE_QUERIES} key={`query-${idx}`}>
           <button
             onClick={() => copyToQueryZone(query)}
             style={style.BUTTON_LOAD}
