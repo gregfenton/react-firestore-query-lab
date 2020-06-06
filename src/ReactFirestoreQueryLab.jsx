@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { connect } from "react-redux";
 import { withFirestore } from "react-redux-firebase";
 import { compose } from "recompose";
 
