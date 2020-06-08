@@ -12,7 +12,9 @@
   "main": "./build/index.js",
   "scripts": {
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "pre-publish": "echo \"  ENSURE YOU DID: git tag v_._._ && auto-changelog\" && echo \"\"",
+    "publish": "npm build && npm publish"
   },
   "license": "MIT",
   "repository": {
