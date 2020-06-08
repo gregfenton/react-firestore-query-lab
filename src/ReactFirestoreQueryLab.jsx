@@ -10,6 +10,8 @@ const ReactFirestoreQueryLab = (props) => {
   const [queryResult, setQueryResult] = useState("");
   const [query, setQuery] = useState("");
 
+  const META_ID = "__META_ID__";
+
   const runQuery = () => {
     try {
       let q = JSON.parse(query);
@@ -22,7 +24,7 @@ const ReactFirestoreQueryLab = (props) => {
           let retVal = [];
           querySnapshot.forEach((queryDocSnapshot) => {
             let d = queryDocSnapshot.data();
-            retVal.push({ ...d, __META_ID: queryDocSnapshot.id });
+            retVal.push({ ...d, [META_ID]: queryDocSnapshot.id });
           });
           setQueryResult(retVal);
         })
@@ -58,7 +60,15 @@ const ReactFirestoreQueryLab = (props) => {
       return <div style={style.RESULTS_ERROR}>{queryResult}</div>;
     } else {
       return (
-        <div style={style.RESULTS}>{JSON.stringify(queryResult, null, 3)}</div>
+        <>
+          <div style={style.RESULTS_SUMMARY}>
+            Num of records: <b>{queryResult.length}</b>
+          </div>
+          <hr/>
+          <div style={style.RESULTS}>
+            {JSON.stringify(queryResult, null, 3)}
+          </div>
+        </>
       );
     }
   };
@@ -93,6 +103,4 @@ const ReactFirestoreQueryLab = (props) => {
   );
 };
 
-export default compose(
-  withFirestore,
-)(ReactFirestoreQueryLab);
+export default compose(withFirestore)(ReactFirestoreQueryLab);

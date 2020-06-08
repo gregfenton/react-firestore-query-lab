@@ -53,6 +53,10 @@ export const RESULTS = {
   backgroundColor: COLOR_LIGHT_BLUE,
 };
 
+export const RESULTS_SUMMARY = {
+  backgroundColor: COLOR_LIGHT_BLUE
+};
+
 export const RESULTS_ERROR = {
   fontFamily: "monospace",
   wordWrap: "break-word",
