@@ -1,4 +1,4 @@
-<img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/react.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/firestore.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/query.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/icons/lab.png' width='60'/>
+<img src='https://github.com/gregfenton/react-firestore-query-lab/raw/main/media/icons/react.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/main/media/icons/firestore.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/main/media/icons/query.png' width='60'/><img src='https://github.com/gregfenton/react-firestore-query-lab/raw/main/media/icons/lab.png' width='60'/>
 # React Firestore Query Lab 
 
 Table of Contents
@@ -46,10 +46,10 @@ Once loaded in your app, you can query your Firestore instance.  The Component c
 
 The query takes a string that is parsed as JSON.  If it parses correctly and if it contains a valid query, `firestore.get()` is called with your query.  Results or Errors are displayed in the _Results Zone_.
 
-<img src='https://github.com/gregfenton/react-firestore-query-lab/raw/master/media/screenshots/screenshot_1.png' width='700'/>
+<img src='https://github.com/gregfenton/react-firestore-query-lab/raw/main/media/screenshots/screenshot_1.png' width='700'/>
 
 ## The Example App
-See [the project's example app](https://github.com/gregfenton/react-firestore-query-lab/tree/master/example) to quickly get going in a sample app.
+See [the project's example app](https://github.com/gregfenton/react-firestore-query-lab/tree/main/example) to quickly get going in a sample app.
 
 
 ---
